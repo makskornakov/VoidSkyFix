@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.maksim.voidskyfix.mixins",
+  "refmap": "mixins.voidskyfix.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": ["MixinRenderGlobal", "MixinEntityRenderer"],
+  "server": []
+}

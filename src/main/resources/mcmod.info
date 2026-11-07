@@ -1,0 +1,8 @@
+[{
+  "modid": "voidskyfix",
+  "name": "Void Sky Fix",
+  "description": "Client-only: removes the black lower half of the sky below Y=63 (for skyblock/void worlds).",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
+  "authorList": ["Maksim"]
+}]
