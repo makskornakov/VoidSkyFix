@@ -1,0 +1,24 @@
+voidskyfix.config.removeBlackBox=Remove black box
+voidskyfix.config.removeBlackBox.tooltip=Removes the black box drawn under the sky when you are below Y=63.
+voidskyfix.config.removeLowerSkyDisc=Remove lower sky disc
+voidskyfix.config.removeLowerSkyDisc.tooltip=Removes the blue square visible below you in void worlds.
+voidskyfix.config.removeVoidDarkening=Remove void darkening
+voidskyfix.config.removeVoidDarkening.tooltip=Stops the sky from fading to black below Y=32.\nThe fade starts at Y=0 instead (see Void darkening depth).
+voidskyfix.config.voidDarkeningDepth=Void darkening depth
+voidskyfix.config.voidDarkeningDepth.tooltip=How many blocks below Y=0 the sky takes to fade to black.\nOnly works with Remove void darkening. 0 = instant cut at Y=0.
+voidskyfix.config.globalVoidFogFix=Fix void darkening in other mods
+voidskyfix.config.globalVoidFogFix.tooltip=Only with Remove void darkening: also applies it to mods that copy the vanilla void darkening.\nFor example, Biomes O' Plenty biome fog turning black below Y=32.
+voidskyfix.config.uniformSkyColor=Uniform sky color
+voidskyfix.config.uniformSkyColor.tooltip=Makes the sky one color everywhere: no pale horizon band, no white below you.\nDistant terrain also fades into the sky color.\nTurn off if a resource pack's custom sky looks wrong.
+voidskyfix.config.fixFogBrightness=Fix fog brightness
+voidskyfix.config.fixFogBrightness.tooltip=Fixes a vanilla bug at render distance over 16: in the dark the fog gets up to 2x brighter.\nCauses the turquoise sky below Y=0 and the flash when flying up.
+voidskyfix.config.gradientSky=Gradient sky
+voidskyfix.config.gradientSky.tooltip=Draws the sky as a smooth sphere: sky color above and below, fog color at the horizon.\nNo seam between upper and lower sky; nice gradient at sunrise and sunset.\nDoesn't depend on fog settings.
+voidskyfix.config.voidDarkenWholeSky=Void darkens whole sky
+voidskyfix.config.voidDarkenWholeSky.tooltip=With Gradient sky: falling into the void darkens the whole sky.\nOff: only the horizon and below get dark.
+voidskyfix.config.directionalSunset=Directional sunset
+voidskyfix.config.directionalSunset.tooltip=With Gradient sky: the sunrise/sunset glow is computed for each direction of the sky,\ninstead of the vanilla glow fan and fog that recolors when you turn the camera.
+voidskyfix.config.highDetailSky=High detail sky
+voidskyfix.config.highDetailSky.tooltip=With Gradient sky: denser sky mesh near the horizon.\nRemoves faint lines in the gradient at sunrise and sunset.
+voidskyfix.config.debugFog=Debug: fog info on F3
+voidskyfix.config.debugFog.tooltip=Diagnostics. Shows the fog color at each rendering stage on the F3 screen (left side, [VSF] lines).

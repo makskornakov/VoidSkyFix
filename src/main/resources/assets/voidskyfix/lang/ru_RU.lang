@@ -1,0 +1,24 @@
+voidskyfix.config.removeBlackBox=Убрать чёрную коробку
+voidskyfix.config.removeBlackBox.tooltip=Убирает чёрную коробку под небом, когда вы ниже Y=63.
+voidskyfix.config.removeLowerSkyDisc=Убрать нижний диск неба
+voidskyfix.config.removeLowerSkyDisc.tooltip=Убирает синий квадрат, видимый под ногами в мирах-пустотах.
+voidskyfix.config.removeVoidDarkening=Убрать затемнение у бездны
+voidskyfix.config.removeVoidDarkening.tooltip=Небо больше не темнеет до чёрного ниже Y=32.\nЗатемнение начинается только с Y=0 (см. «Глубина затемнения»).
+voidskyfix.config.voidDarkeningDepth=Глубина затемнения
+voidskyfix.config.voidDarkeningDepth.tooltip=За сколько блоков ниже Y=0 небо плавно темнеет до чёрного.\nРаботает только с «Убрать затемнение у бездны». 0 = резко на Y=0.
+voidskyfix.config.globalVoidFogFix=Исправить затемнение в других модах
+voidskyfix.config.globalVoidFogFix.tooltip=Только с «Убрать затемнение у бездны»: применяет его и к модам, которые копируют ванильное затемнение.\nНапример, туман биомов Biomes O' Plenty чернеет ниже Y=32.
+voidskyfix.config.uniformSkyColor=Однородный цвет неба
+voidskyfix.config.uniformSkyColor.tooltip=Небо одного цвета со всех сторон: без светлой полосы горизонта и белого низа.\nДальние чанки тоже растворяются в цвете неба.\nВыключите, если кастомное небо из ресурспака выглядит неправильно.
+voidskyfix.config.fixFogBrightness=Исправить яркость тумана
+voidskyfix.config.fixFogBrightness.tooltip=Исправляет баг ванилы при дальности прорисовки больше 16: в темноте туман становится до 2 раз ярче.\nОтсюда бирюзовое небо ниже Y=0 и вспышка при подъёме.
+voidskyfix.config.gradientSky=Градиентное небо
+voidskyfix.config.gradientSky.tooltip=Рисует небо плавной сферой: цвет неба сверху и снизу, цвет тумана у горизонта.\nБез шва между верхом и низом, красивый градиент на рассвете и закате.\nНе зависит от настроек тумана.
+voidskyfix.config.voidDarkenWholeSky=Затемнять всё небо в бездне
+voidskyfix.config.voidDarkenWholeSky.tooltip=С градиентным небом: при падении в бездну темнеет всё небо.\nВыкл: темнеет только горизонт и низ.
+voidskyfix.config.directionalSunset=Направленный закат
+voidskyfix.config.directionalSunset.tooltip=С градиентным небом: свечение заката и рассвета считается для каждой точки неба,\nвместо ванильного веера и тумана, который перекрашивается при повороте камеры.
+voidskyfix.config.highDetailSky=Детальное небо
+voidskyfix.config.highDetailSky.tooltip=С градиентным небом: более густая сетка неба у горизонта.\nУбирает тонкие линии в градиенте на рассвете и закате.
+voidskyfix.config.debugFog=Отладка: туман в F3
+voidskyfix.config.debugFog.tooltip=Диагностика. Показывает цвет тумана на каждом шаге отрисовки на экране F3 (слева, строки [VSF]).

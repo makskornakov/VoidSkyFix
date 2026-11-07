@@ -1,5 +1,9 @@
 package com.maksim.voidskyfix;
 
+import net.minecraftforge.common.MinecraftForge;
+
+import com.maksim.voidskyfix.client.FogDebug;
+
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -22,6 +26,8 @@ public class VoidSkyFix {
         FMLCommonHandler.instance()
             .bus()
             .register(this);
+        if (event.getSide()
+            .isClient()) MinecraftForge.EVENT_BUS.register(new FogDebug());
     }
 
     @SubscribeEvent
